@@ -11,26 +11,40 @@ seperti yang telah dispesifikasikan. Aamiin
 ![](cpp/Dokumentasi/tp2.drawio%20(1).png)
 
 ## Desain Program
-**Electronic → Appliance → SmartAppliance**
+### 1. Electronic (Class Dasar / Parent)
+- Dibuat sebagai **class dasar** karena semua produk elektronik punya atribut umum.  
+- Tujuannya supaya **tidak perlu menulis ulang kode** di class lain.  
+- Memiliki:  
+  - **Constructor lengkap & default**  
+  - **Getter / Setter** untuk semua atribut   
 
-**1. Class Electronic (Class Dasar)**  
-- id → ID unik produk  
-- name → Nama produk  
-- brand → Merek produk  
-- year → Tahun rilis produk  
+**Atribut:**  
+- Nama produk      : Nama produk elektronik  
+- Brand            : Merek produk  
+- Tahun rilis      : Tahun rilis produk  
 
-**2. Class Appliance (Turunan Electronic)**  
-- type → Tipe alat (TV, Laptop, dll)  
-- warranty → Lama garansi (tahun)  
-- price → Harga produk  
-- stock → Jumlah stok tersedia  
+### 2. Appliance (Turunan Electronic)
+- **Turunan dari Electronic** karena alat elektronik biasa juga punya atribut umum.  
+- Menambahkan atribut **spesifik alat elektronik biasa**:  
+- Dengan inheritance, **tidak perlu menduplikasi atribut** dari Electronic.  
+- Mempermudah manipulasi data karena semua alat elektronik bisa dianggap **Electronic** jika diperlukan.  
 
-**3. Class SmartAppliance (Turunan Appliance)**  
-- network → Jenis jaringan (WiFi/BT)  
-- watt → Konsumsi daya (Watt)  
-- system → Sistem operasi  
-- color → Warna produk  
+**Atribut tambahan:**  
+- Tipe produk      : Tipe alat (TV, Laptop, dll)  
+- Garansi (tahun)  : Lama garansi  
+- Harga            : Harga produk  
+- Stok             : Jumlah stok tersedia  
 
+### 3. SmartAppliance (Turunan Appliance)
+- **Turunan dari Appliance** karena elektronik pintar juga punya atribut Appliance.  
+- Menambahkan atribut **khusus elektronik pintar**:  
+- Tujuannya supaya bisa menyimpan semua data produk pintar tanpa menulis ulang semua atribut.  
+
+**Atribut tambahan:**  
+- Jaringan         : Jenis jaringan (WiFi/BT)  
+- Daya (Watt)      : Konsumsi daya  
+- Sistem operasi   : Sistem operasi alat  
+- Warna            : Warna produk  
 
 
 ## Alur Program
@@ -42,7 +56,6 @@ seperti yang telah dispesifikasikan. Aamiin
    - Kolom menyesuaikan panjang data otomatis.  
    - Semua atribut, termasuk inherited, ditampilkan.  
 5. Proses ini bisa diulang hingga user selesai menambahkan data.  
-
 
 
 ## Dokumentasi
