@@ -1,0 +1,11 @@
+AC
+Daikin
+2024
+AC
+2
+5600000
+6
+BT
+1200
+Daikin OS
+White
