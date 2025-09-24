@@ -8,8 +8,7 @@ seperti yang telah dispesifikasikan. Aamiin
 ---
 
 ## Diagram
-
----
+![](cpp/Dokumentasi/tp2.drawio%20(1).png)
 
 ## Desain Program
 
