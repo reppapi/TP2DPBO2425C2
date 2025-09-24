@@ -11,8 +11,27 @@ seperti yang telah dispesifikasikan. Aamiin
 ![](cpp/Dokumentasi/tp2.drawio%20(1).png)
 
 ## Desain Program
+**Electronic → Appliance → SmartAppliance**
 
----
+**1. Class Electronic (Class Dasar)**  
+- id → ID unik produk  
+- name → Nama produk  
+- brand → Merek produk  
+- year → Tahun rilis produk  
+
+**2. Class Appliance (Turunan Electronic)**  
+- type → Tipe alat (TV, Laptop, dll)  
+- warranty → Lama garansi (tahun)  
+- price → Harga produk  
+- stock → Jumlah stok tersedia  
+
+**3. Class SmartAppliance (Turunan Appliance)**  
+- network → Jenis jaringan (WiFi/BT)  
+- watt → Konsumsi daya (Watt)  
+- system → Sistem operasi  
+- color → Warna produk  
+
+
 
 ## Alur Program
 1. Program membuat **[jumlah] objek awal** untuk setiap class.  
@@ -24,22 +43,27 @@ seperti yang telah dispesifikasikan. Aamiin
    - Semua atribut, termasuk inherited, ditampilkan.  
 5. Proses ini bisa diulang hingga user selesai menambahkan data.  
 
----
+
 
 ## Dokumentasi
+### C++
+<img src="cpp/Dokumentasi/Screenshot%202025-09-24%20222450.png" width="400">
 
-### CPP  
-![C++](cpp/Dokumentasi/Screenshot%202025-09-24%20222450.png)
+### Java
+<img src="java/Dokumentasi/Screenshot%202025-09-24%20222723.png" width="400">
 
-### Java  
-![Java](java/Dokumentasi/Screenshot%202025-09-24%20222723.png)
+### Python
+<img src="python/Dokumentasi/Screenshot%202025-09-24%20222855.png" width="400">
 
-### Python  
-![Python](python/Dokumentasi/Screenshot%202025-09-24%20222855.png)
-
-### PHP  
-![PHP 1](php/Dokumentasi/Screenshot%202025-09-24%20230616.png)  
-![PHP 2](php/Dokumentasi/Screenshot%202025-09-24%20231802.png)  
-![PHP 3](php/Dokumentasi/Screenshot%202025-09-24%20232049.png)  
-![PHP 4](php/Dokumentasi/Screenshot%202025-09-24%20232101.png)
+### PHP
+<table>
+<tr>
+<td><img src="php/Dokumentasi/Screenshot%202025-09-24%20230616.png" width="300"></td>
+<td><img src="php/Dokumentasi/Screenshot%202025-09-24%20231802.png" width="300"></td>
+</tr>
+<tr>
+<td><img src="php/Dokumentasi/Screenshot%202025-09-24%20232049.png" width="300"></td>
+<td><img src="php/Dokumentasi/Screenshot%202025-09-24%20232101.png" width="300"></td>
+</tr>
+</table>
 
