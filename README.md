@@ -1,6 +1,6 @@
 # TP2DPBO2425C2
 
-## 📝 Janji
+## Janji
 Saya Repa Pitriani dengan NIM 2402499 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain
 dan Pemograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan 
 seperti yang telah dispesifikasikan. Aamiin
