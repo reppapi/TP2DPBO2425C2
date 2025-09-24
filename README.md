@@ -27,4 +27,19 @@ seperti yang telah dispesifikasikan. Aamiin
 ---
 
 ## Dokumentasi
---
+
+### CPP  
+![C++](cpp/Dokumentasi/Screenshot%202025-09-24%20222450.png)
+
+### Java  
+![Java](java/Dokumentasi/Screenshot%202025-09-24%20222723.png)
+
+### Python  
+![Python](python/Dokumentasi/Screenshot%202025-09-24%20222855.png)
+
+### PHP  
+![PHP 1](php/Dokumentasi/Screenshot%202025-09-24%20230616.png)  
+![PHP 2](php/Dokumentasi/Screenshot%202025-09-24%20231802.png)  
+![PHP 3](php/Dokumentasi/Screenshot%202025-09-24%20232049.png)  
+![PHP 4](php/Dokumentasi/Screenshot%202025-09-24%20232101.png)
+
