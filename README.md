@@ -59,7 +59,7 @@ seperti yang telah dispesifikasikan. Aamiin
 
 
 ## Dokumentasi
-### C++
+### CPP
 <img src="cpp/Dokumentasi/Screenshot%202025-09-24%20222450.png" width="400">
 
 ### Java
